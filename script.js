@@ -28,6 +28,9 @@ btnEl.addEventListener("click", () => {
       case "Happy":
         feedbackMessage = "Thanks for letting us know that you had a positive experience! We're glad that we could help.";
         break;
+        default:
+        feedbackMessage = "";
+        break;
     }
     containerEl.innerHTML = `
       <strong>Thank You!</strong>
